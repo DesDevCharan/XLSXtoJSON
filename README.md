@@ -1,5 +1,9 @@
 # XlsxJsonAng
 
+This project has the source code for conversion of an excel file to a JSON file.
+
+Live URL is available at https://desdevcharan.github.io/XLSXtoJSON/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
 
 ## Development server
