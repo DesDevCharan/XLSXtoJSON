@@ -1,0 +1,36 @@
+<div class="row" *ngIf='convertedJSON.length>0'>
+    <div class="col-sm-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="left">Name</th>
+                    <th>Department</th>
+                    <th>Unit</th>
+                    <th>Skills </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let obj of convertedJSON'>
+                    <td class="left">{{obj.Name}}</td>
+                    <td>{{obj.Department}}</td>
+                    <td>{{obj.Unit}}</td>
+                    <td>{{obj.Skills}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="row" *ngIf='convertedJSON.length===0'>
+    <div class="col-sm-12">
+        <div class="alert alert-success">
+            <div class="alert-items">
+                <div class="alert-item static">
+                    <div class="alert-icon-wrapper">
+                        <clr-icon class="alert-icon" shape="check-circle"></clr-icon>
+                    </div><span class="alert-text"> Watch this space for details on excel after uploading
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

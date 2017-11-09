@@ -1,0 +1,18 @@
+.card {
+    .upload-container {
+        background-color: #FFE6E8;
+        min-height: 200px;
+        position: relative;
+        .upload-file {
+            min-height: 200px;
+            width: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+        label {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+        }
+    }
+}
